@@ -231,7 +231,7 @@ function playMusic() {
   music.play()
     .then(() => {
       musicPlaying = true;
-      musicBtn.textContent = "⏸🔈";
+      musicBtn.textContent = "🔈";
     })
     .catch((error) => {
       console.error("Error al reproducir música:", error);
