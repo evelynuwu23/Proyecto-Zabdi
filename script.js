@@ -231,7 +231,7 @@ function playMusic() {
   music.play()
     .then(() => {
       musicPlaying = true;
-      musicBtn.textContent = "⏸️ Pausar música";
+      musicBtn.textContent = "⏸🔈";
     })
     .catch((error) => {
       console.error("Error al reproducir música:", error);
@@ -245,7 +245,7 @@ musicBtn.addEventListener("click", () => {
   } else {
     music.pause();
     musicPlaying = false;
-    musicBtn.textContent = "🎵 Música lo-fi";
+    musicBtn.textContent = "🔇";
   }
 });
 

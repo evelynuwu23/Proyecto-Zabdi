@@ -307,3 +307,24 @@ button {
   background: rgba(170, 110, 180, 0.45);
   border-radius: 10px;
 }
+@media (max-width: 600px) {
+  .music-btn {
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    left: auto;
+
+    width: auto;
+    max-width: 170px;
+
+    padding: 10px 14px;
+    font-size: 16px;
+    border-radius: 18px;
+
+    z-index: 9999;
+  }
+
+  .card {
+    padding-top: 80px;
+  }
+}
